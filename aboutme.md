@@ -1,16 +1,18 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: All the personal stuff
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Bc. Samuel Kubala. I'm 23 years old and i live in Bratislava, Slovakia. Here I study Information Security at FIIT STU,c urrently working on my master title. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Summary of skills
+I have learned to code in these languages:
 
-What else do you need?
+- C - advanced
+- C# - advanced
+- Java - advanced
+- Python - intermediate
+- R - intermediate
+- Postgre SQL - intermediate
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
