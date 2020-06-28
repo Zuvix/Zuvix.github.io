@@ -4,7 +4,7 @@ title: About me
 subtitle: All the personal stuff
 ---
 
-My name is Bc. Samuel Kubala. I'm 23 years old and i live in Bratislava, Slovakia. Here i study Information Security at FIIT STU, currently working on my master title. Some of my other hobbies include Fantasy literature, frisbee, tenis, bass guitar and gaming.
+My name is Bc. Samuel Kubala. I'm 23 years old and i live in Bratislava, Slovakia. Here i study Information Security at FIIT STU, currently working on my master title. Some of my other hobbies include Fantasy literature, frisbee, tennis, bass guitar and gaming.
 
 ### My skills
 During the Bachelor study i learned to code by solving variety of problems like knapsack problem, finding optimal path with dijkstra algorithm or building my own tree structures. For most of the problems we used C, C++ and Java.
