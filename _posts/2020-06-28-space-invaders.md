@@ -4,7 +4,7 @@ title: Space Invaders Pygame
 subtitle: Best way to practice Python
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [gamedev, python]
 comments: true
 ---
 
