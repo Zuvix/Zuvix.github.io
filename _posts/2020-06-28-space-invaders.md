@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Space Invaders: Pygame
-subtitle: The best way to practice Python
-gh-repo: Zuvix/Python-pygame-experiment
+title: Space Invaders Pygame
+subtitle: Best way to practice Python
+gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [Python, Gamedev]
+tags: [test]
 comments: true
 ---
+
 When schools are closed and going outside is dangerous, how else can we programmers procrastinate and evade working on master thesis, than to work on a game. This time i decided step out of Unity engine and experiment with Python. For today the game we will be working on is [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) with a few added features to spice up the old retro gaming experience. 
 
 ## About the game
@@ -20,9 +21,6 @@ In our interpretation of the game we focus to recreate the basic concepts of the
 | :------ |:--- | :--- |  :--- |  :--- |  :--- |  :--- |  :--- |  :--- |  :--- |
 | Original | L,R,Shoot | One at time | 55 | All in last row | Points | Original | Multiple | None | None |
 | Pygame | L,R,Shoot | One at time | 55 | All in last row | Reworked | Imitated | None | TODO | TODO |
-
-
-
 
 ## Code behind the game
 [Pygame](https://www.pygame.org) is set of Python modules running on top of [SDL](http://www.libsdl.org) library designed to create video games.
