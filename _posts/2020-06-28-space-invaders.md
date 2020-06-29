@@ -2,7 +2,7 @@
 layout: post
 title: Space Invaders Pygame
 subtitle: Best way to practice Python
-gh-repo: daattali/beautiful-jekyll
+gh-repo: Zuvix/Python-pygame-experiment
 gh-badge: [star, fork, follow]
 tags: [gamedev, python]
 comments: true
