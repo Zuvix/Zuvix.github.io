@@ -15,7 +15,7 @@ navbar-links:
   About Me: "aboutme"
   Projects:
     - Space Invaders: "https://zuvix.github.io/2020-06-28-space-invaders/"
-    - Another game: "https://www.markdowntutorial.com/"
+    - Another game: "https://zuvix.github.io/2020-05-26-anim-arch/"
   Home: "index.html"
 
 # --- Logo --- #
@@ -40,7 +40,7 @@ round-avatar: true
 social-network-links:
   email: "someone@example.com"
   facebook: samo.kubala
-  github: sweil9
+  github: Zuvix
   rss: true
 #  reddit: yourname
 #  linkedin: daattali
