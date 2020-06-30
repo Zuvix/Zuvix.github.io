@@ -2,6 +2,7 @@
 layout: page
 title: About me
 subtitle: All the personal stuff
+show-avatar: false
 cover-img: [/assets/img/1.jpg, /assets/img/2.jpg, /assets/img/3.jpg, /assets/img/4.jpg]
 ---
 
