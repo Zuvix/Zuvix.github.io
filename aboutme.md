@@ -2,7 +2,7 @@
 layout: page
 title: About me
 subtitle: All the personal stuff
-cover-img: [\assets\img\1.jpg,\assets\img\2.jpg,\assets\img\3.jpg,\assets\img\4.jpg]
+cover-img: ["\assets\img\1.jpg", "\assets\img\2.jpg", "\assets\img\3.jpg", "\assets\img\4.jpg"]
 ---
 
 My name is Bc. Samuel Kubala. I'm 23 years old and i live in Bratislava, Slovakia. Here i study Information Security at FIIT STU, currently working on my master title. Some of my other hobbies include Fantasy literature, frisbee, tennis, bass guitar and gaming.
