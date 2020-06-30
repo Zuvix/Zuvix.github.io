@@ -15,7 +15,7 @@ navbar-links:
   About Me: "aboutme"
   Projects:
     - Space Invaders: "https://zuvix.github.io/2020-06-28-space-invaders/"
-    - Another game: "https://zuvix.github.io/2020-05-26-anim-arch/"
+    - AnimArch: "https://zuvix.github.io/2020-05-26-anim-arch/"
   Home: "index.html"
 
 # --- Logo --- #
