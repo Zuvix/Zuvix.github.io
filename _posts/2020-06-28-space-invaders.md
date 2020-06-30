@@ -21,9 +21,10 @@ In our interpretation of the game we focus to recreate the basic concepts of the
 | Original | L,R,Shoot | One at time | 55 | All in last row | Points | Original | Multiple | None | None |
 | Pygame | L,R,Shoot | One at time | 55 | All in last row | Reworked | Imitated | None | TODO | TODO |
 
-Two new terms emerged in this table: **Powerups** and **Calamities**. Both share the same idea, to break the linear gameplay. Calamity is a negative event in which aliens gain some sort of special power. For example some of the aliens change their color and instead of shooting they gain the ability to reproduce themselves. Another example that comes in my mind is that 4 of the same type of alien merge into one big alien with bonus HP and new shooting patterns. On the other hand powerups are to benefit the player, allowing him to break the limits like having multiple bullets at once, bullets destroying multiple aliens or even making a clone of the player ship.
+Two new terms emerged in this table: **Powerups** and **Calamities**. Both share the same idea, to break the linear gameplay. **Calamity** is a negative event in which aliens gain some sort of special power. For example some of the aliens change their color and instead of shooting they gain the ability to reproduce themselves. Another example that comes in my mind is that 4 of the same type of alien merge into one big alien with bonus HP and new shooting patterns. On the other hand **Powerups** are to benefit the player, allowing him to break the limits like having multiple bullets at once, bullets destroying multiple aliens or even making a clone of the player ship.
 
 In the older version the Ufo alien that passes the screen once in a while was all about bonus points. We feel it could be doing more than that. If a player snipes the ufo he gets the new powerup, if he fails the calamity falls upon him. To make this design sound less like a win/lose situation for player, calamities would allow him to gain more points(reproduced or merged aliens are giving you extra points for killing them). 
+
 **This is still a work in progress and is not implemented in the latest version on github**.
 
 
