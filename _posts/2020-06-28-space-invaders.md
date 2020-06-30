@@ -29,4 +29,14 @@ In the older version the Ufo alien that passes the screen once in a while was al
 
 
 ## Code behind the game
-[Pygame](https://www.pygame.org) is set of Python modules running on top of [SDL](http://www.libsdl.org) library designed to create video games.
+[Pygame](https://www.pygame.org) is set of Python modules running on top of [SDL](http://www.libsdl.org) library designed to create video games. The main reason to choose Pygame high portability and ability to run on nearly every platform and operating system. You don’t need expensive pc to run Unity engine, you can create a game like this one on your Raspberry Pi. All you need is to learn some Python and follow Pygame documentation or tutorials to get you going.
+
+First thing we do in Pygame is to initialize a screen. To make it more simple we used a static screen size and docked the window in the middle of the screen.
+
+{% highlight python linenos %}
+os.environ['SDL_VIDEO_CENTERED'] = '1'
+pygame.init()
+win_height = 600
+win_width = 800
+win = pygame.display.set_mode((win_width, win_height))
+{% endhighlight %}
