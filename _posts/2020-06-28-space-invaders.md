@@ -13,7 +13,6 @@ When schools are closed and going outside is dangerous, how else can we programm
 Space Invaders is an arcade game designed by Tomohiro Nishikado in 1978. The plot of the game is simple. Aliens are invading Earth and it is your job to defend your home planet from the 3 types of descending Invaders before they destroy you or touch the ground.
 
 In Space Invaders, you control the Core Cannon, which moves horizontally across the screen firing at aliens. The aim is to shoot all of the aliens in 5 rows of 11. They move back and forth and every time they complete and get back to where they started they move down one row. Their goal is to reach the ground (Earth) and invade, for which then the player loses. Source: [Fandom wiki](https://spaceinvaders.fandom.com/wiki/Space_Invaders).
-![Start screen](/assets/img/start.png)
 ![Gameplay](/assets/img/gameplay.png)
 In our interpretation of the game we focus to recreate the basic concepts of the game as precisely as possible, while adding new content to the game. In a table below we summarize the differences between original and our version: 
 
