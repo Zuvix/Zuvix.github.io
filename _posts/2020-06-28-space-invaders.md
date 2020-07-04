@@ -7,7 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [gamedev, python]
 comments: true
 ---
-When schools are closed and going outside is dangerous, how else can we programmers procrastinate and evade working on master thesis, than to work on a game. This time i decided step out of Unity engine and experiment with Python. For today the game we will be working on is [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) with a few added features to spice up the old retro gaming experience. 
+When schools are closed and going outside is dangerous, how else can we programmers procrastinate and evade working on master thesis, than to work on a game? This time I decided step out of Unity engine and experiment with Python. For today, the game we will be working on is [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) with a few added features to spice up the old retro gaming experience. 
 
 ## About the game
 Space Invaders is an arcade game designed by Tomohiro Nishikado in 1978. The plot of the game is simple. Aliens are invading Earth and it is your job to defend your home planet from the 3 types of descending Invaders before they destroy you or touch the ground.
@@ -16,16 +16,16 @@ In Space Invaders, you control the Core Cannon, which moves horizontally across 
 
 ![Gameplay](/assets/img/gameplay.png)
 
-In our interpretation of the game we focus to recreate the basic concepts of the game as precisely as possible, while adding new content to the game. In a table below we summarize the differences between original and our version: 
+In our interpretation of the game we focus on recreating the basic concepts of the game as precisely as possible, while adding new content to the game. In a table below we summarize the differences between the original and our version: 
 
 | Version | Player control |  Player bullet | Alien count | Alien shooting | Ufo | Audio | Walls | Powerups | Calamities |  
 | :------ |:--- | :--- |  :--- |  :--- |  :--- |  :--- |  :--- |  :--- |  :--- |
 | Original | L,R,Shoot | One at time | 55 | All in last row | Points | Original | Multiple | None | None |
 | Pygame | L,R,Shoot | One at time | 55 | All in last row | Reworked | Imitated | None | TODO | TODO |
 
-Two new terms emerged in this table: **Powerups** and **Calamities**. Both share the same idea, to break the linear gameplay. **Calamity** is a negative event in which aliens gain some sort of special power. For example some of the aliens change their color and instead of shooting they gain the ability to reproduce themselves. Another example that comes in my mind is that 4 of the same type of alien merge into one big alien with bonus HP and new shooting patterns. On the other hand **Powerups** are to benefit the player, allowing him to break the limits like having multiple bullets at once, bullets destroying multiple aliens or even making a clone of the player ship.
+The two new terms emerged in this table: **Powerups** and **Calamities**. Both share the same idea, to break the linear gameplay. **Calamity** is a negative event in which aliens gain some sort of special power. For example, some of the aliens change their color and instead of shooting, they gain the ability to reproduce themselves. Another example that comes in my mind is that 4 of the same type of alien merge into one big alien with bonus HP and new shooting patterns. On the contrary, **Powerups** are to benefit the player, allowing him to break the limits like having multiple bullets at once, bullets destroying multiple aliens or even making a clone of the player’s ship.
 
-In the older version the Ufo alien that passes the screen once in a while was all about bonus points. We feel it could be doing more than that. If a player snipes the ufo he gets the new powerup, if he fails the calamity falls upon him. To make this design sound less like a win/lose situation for player, calamities would allow him to gain more points(reproduced or merged aliens are giving you extra points for killing them). 
+In the older version the Ufo alien that passes the screen once in a while was all about bonus points. We feel it could be doing more than that. If a player snipes the ufo he gets the new powerup, if he fails the calamity falls upon him. To make this design sound less like a win/lose situation for the player, calamities would allow him to gain more points(reproduced or merged aliens are giving you extra points for killing them). 
 
 **This is still a work in progress and is not implemented in the latest version on github**.
 
@@ -43,7 +43,7 @@ win_width = 800
 win = pygame.display.set_mode((win_width, win_height))
 {% endhighlight %}
 
-Next thing was to get the player behaviour working. For this we made a class called Player with variables describing position, size, speed and shooting ability. We assigned a loaded image for this class and created a function to draw the player sprite. 
+The next thing was to get the player behaviour working. For this we made a class called Player with variables describing position, size, speed and shooting ability. We assigned a loaded image for this class and created a function to draw the player sprite. 
 
 {% highlight python linenos %}
 class Player:
@@ -62,7 +62,7 @@ class Player:
         window.blit(self.player_image, (self.x, self.y))
   {% endhighlight %}
 
-We want our player to move left/right by holding the corresponding key on keyboard. We simply change the player X position when we capture the event from our keyboard. When the scene is updated by redrawing all of it’s objects so is the position of player.
+We want our player to move left/right by holding the corresponding key on keyboard. We simply change the player’s X position when we capture the event from our keyboard. When the scene is updated by redrawing all of it’s objects so is the position of the player.
 
 {% highlight python linenos %}
 def handle_player_input():
@@ -101,11 +101,11 @@ def redraw_game_window():
     pygame.display.update()
 {% endhighlight %}
 
-These code snippets should help you get the basic idea of how i manage the code in this pygame project. The complexity of whole project however is a lot higher because of the many interactions and events that can occur within the game. Also a negative i’m aware of is the length of the code. The game was supposed to be a short 200-400 line script, but in the end i couldn’t resist adding new features resulting in a huge lengthy code separated only by comment sections. Maybe one day i’ll get to refactor it to make it more readable and understandable.
+These code snippets should help you get the basic idea of how I manage the code in this Pygame project. The complexity of the whole project, however, is a lot higher because of the many interactions and events that can occur within the game. Also a negative I’m aware of is the length of the code. The game was supposed to be a short 200-400 line script, but in the end I couldn’t resist adding new features resulting in a huge lengthy code separated only by comment sections. Maybe one day I’ll get to refactor it to make it more readable and understandable.
 
 ## Conclusion
 
-This project was a fun way for me to get more into Python and gave me a better understanding of how mechanics in retro games worked. Hope you liked the idea and someday i’ll finish the project and share it with Pygame community.
+This project was a fun way for me to get more into Python and gave me a better understanding of how mechanics in retro games worked. I hope you liked the idea and someday the project will be finished and shared with the Pygame community.
 
 ![Gameplay](/assets/img/start.png)
 
