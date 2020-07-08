@@ -25,7 +25,7 @@ List of languages primarily used to solve problems:
 - Postgresql - intermediate
 
 ### My personality
-According to [16personalities](https://www.16personalities.com/), mine can be categorized as [Assertive Architect](https://www.16personalities.com/intj-personality). For the most part I agree with the description provided by the referenced site. I perform best in a small/medium sized teams, handle stressful calmly, prefer to plan ahead for every scenario and value other people’s opinion about me or my work. 
+According to [16personalities](https://www.16personalities.com/), mine can be categorized as [Assertive Architect](https://www.16personalities.com/intj-personality). For the most part I agree with the description provided by the referenced site. I perform best in a small/medium sized teams, handle stressful situations calmly, prefer to plan ahead for every scenario and value other people’s opinion about me or my work. 
 
 ![persona](/assets/img/personal.png)
 
