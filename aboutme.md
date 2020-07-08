@@ -29,5 +29,5 @@ According to [16personalities](https://www.16personalities.com/), mine can be ca
 
 ![persona](/assets/img/personal.png)
 
-Full details are avaliable [here](https://www.16personalities.com/profiles/f3103437a144d).
+Full details are avaliable [here](https://www.16personalities.com/profiles/b0fcbd2c960a7).
 
