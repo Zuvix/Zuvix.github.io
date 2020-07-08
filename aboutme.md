@@ -6,7 +6,7 @@ show-avatar: false
 cover-img: [/assets/img/1.jpg, /assets/img/2.jpg, /assets/img/3.jpg, /assets/img/4.jpg]
 ---
 
-My name is Samuel Kubala and I’am 23 year old Masters student of Information Security at FIIT STU in Bratislava, Slovakia. Some of my hobbies are fantasy literature, frisbee, tennis, bass guitar and gaming.
+My name is Samuel Kubala and I am 23 year old Masters student of Information Security at FIIT STU in Bratislava, Slovakia. Some of my hobbies are fantasy literature, frisbee, tennis, bass guitar and gaming.
 
 ### My skills
 During the Bachelor study I learned to code by solving a variety of problems like the Knapsack problem, finding optimal path with Dijkstra algorithm or building my own tree structures. For most of the problems we used C, C++ and Java.
