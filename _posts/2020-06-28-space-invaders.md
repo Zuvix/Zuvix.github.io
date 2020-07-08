@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Space Invaders Pygame
-subtitle: Best way to practice Python
+subtitle: The best way to practice Python
 gh-repo: Zuvix/Python-pygame-experiment
 gh-badge: [star, fork, follow]
 tags: [gamedev, python]
 comments: true
 ---
-When schools are closed and going outside is dangerous, how else can we programmers procrastinate and evade working on master thesis, than to work on a game? This time I decided step out of Unity engine and experiment with Python. For today, the game we will be working on is [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) with a few added features to spice up the old retro gaming experience. 
+When schools are closed and going outside is dangerous, how else can we programmers procrastinate and avoid working on master thesis, than to work on a game? This time I decided to step out of Unity engine and experiment with Python. For today, the game we will be working on is [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) with a few added features to spice up the old retro gaming experience. 
 
 ## About the game
 Space Invaders is an arcade game designed by Tomohiro Nishikado in 1978. The plot of the game is simple. Aliens are invading Earth and it is your job to defend your home planet from the 3 types of descending Invaders before they destroy you or touch the ground.
