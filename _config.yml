@@ -42,7 +42,7 @@ social-network-links:
   email: "someone@example.com"
   facebook: samo.kubala
   github: Zuvix
-  rss: true
+  rss: false
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
