@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: post
 title: Cieľ hry shogi
 subtitle: 
 gh-repo: daattali/beautiful-jekyll
