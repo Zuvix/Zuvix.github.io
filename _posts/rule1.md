@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Cieľ hry shogi
-subtitle: 
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
+subtitle:
 tags: [test]
 comments: true
 ---
@@ -18,3 +16,5 @@ Teda hráč sa snaží dostať súperovho kráľa do takej situácie, aby ho sú
 
 {: .box-note}
 **Poznámka:** Na rozdiel od klasického šachu, hráč nie je povinný oznámiť súperovi, že jeho kráľ je ohrozený. Ak si to hráč neuvedomí, tak v ďalšom kole jednoducho prehral.
+
+![Gameplay](/assets/img/start.png)
